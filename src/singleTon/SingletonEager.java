@@ -38,8 +38,8 @@ class Pig extends JPanel {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        JLabel l1 = new JLabel(new ImageIcon("src/singleTon/Bajie.jpg"));
-//        JLabel l1 = new JLabel(new ImageIcon(img));
+//        JLabel l1 = new JLabel(new ImageIcon("src/singleTon/Bajie.jpg"));
+        JLabel l1 = new JLabel(new ImageIcon(img));
         this.add(l1);
     }
     public static Pig getInstance(){
